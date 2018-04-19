@@ -5,10 +5,10 @@
 
 ## To-Do List
 - [x] Consult the Java API for queue and deque and plan on the methods that we should have.  
-- [ ] Implement the methods that we wrote in the Dequeue interface in class QQKachoo.
-- [ ] Include comments for both classes.
-- [ ] Test and robustify the code!
-- [ ] Update the ReadMe!
+- [x] Implement the methods that we wrote in the Dequeue interface in class QQKachoo.
+- [x] Include comments for both classes.
+- [x] Test and robustify the code!
+- [x] Update the ReadMe!
 
 ## Development Plan
 1. Plan on the methods that we should implement based on the Java API entries. 
