@@ -19,9 +19,9 @@
 1. Update the ReadMe to provide the list of methods we decided to implement and rationality why we chose this underlying data structure.
 
 ## Methods
-* public void addFirst(Card x);
-* public void addLast(Card x);
-* public Card removeFirst();
-* public Card removeLast();
-* public Card getFirst();
-* public Card getLast();
+* <addr> public void addFirst(Card x);
+* <addr> public void addLast(Card x);
+* <addr> public Card removeFirst();
+* <addr> public Card removeLast();
+* <addr> public Card getFirst();
+* <addr> public Card getLast();
