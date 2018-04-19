@@ -4,10 +4,10 @@
 #### L02 -- All Hands on Deque!
 
 ## To-Do List
-[ ] Implement the methods that we wrote in the Dequeue interface.
-[ ] Include comments for both classes.
-[ ] Test and robustify the code!
-[ ] Update the ReadMe!
+- [ ] Implement the methods that we wrote in the Dequeue interface.
+- [ ] Include comments for both classes.
+- [ ] Test and robustify the code!
+- [ ] Update the ReadMe!
 
 ## Development Plan
 1. Plan on the methods that we should implement based on the Java API entries. 
