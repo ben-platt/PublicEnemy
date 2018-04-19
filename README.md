@@ -4,8 +4,8 @@
 #### L02 -- All Hands on Deque!
 
 ## To-Do List
-- [x] Consult the Java API for queue and deque.  
-- [ ] Implement the methods that we wrote in the Dequeue interface.
+- [x] Consult the Java API for queue and deque and plan on the methods that we should have.  
+- [ ] Implement the methods that we wrote in the Dequeue interface in class QQKachoo.
 - [ ] Include comments for both classes.
 - [ ] Test and robustify the code!
 - [ ] Update the ReadMe!
