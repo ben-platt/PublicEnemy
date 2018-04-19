@@ -11,10 +11,10 @@
 
 ## Development Plan
 1. Plan on the methods that we should implement based on the Java API entries. 
-  1. **Think about which ones are easy to implement and which one are crucial.**
+    1. **Think about which ones are easy to implement and which one are crucial.**
 1. Put the methods we decide on into the Dequeue interface.
 1. Create class QQKachoo which implements the Dequeue interface.
-  1. **Which underlying data structure should we use?**
+    1. **Which underlying data structure should we use?**
 1. Test each method individually. Prioritize functionality. 
 1. Update the ReadMe to provide the list of methods we decided to implement and rationality why we chose this underlying data structure.
 
