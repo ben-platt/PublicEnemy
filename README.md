@@ -26,3 +26,4 @@
 * public Card removeLast();
 * public Card getFirst();
 * public Card getLast();
+We decided to use these methods as 
