@@ -27,4 +27,4 @@
 * public Card getFirst();
 * public Card getLast();
 
-We decided to use these methods as 
+Based on the Java API for Deque and Queue, we decided that these were the essential methods to implement. According to it, a deque should have methods that accesses elements at the front and at the end of the list. The methods should be able to add, remove, and get elements at either end of the list. As a result, we narrowed down the list of methods to the methods that perform these functions.    
