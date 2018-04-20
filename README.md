@@ -28,3 +28,6 @@
 * public Card getLast();
 
 Based on the Java API for Deque and Queue, we decided that these were the essential methods to implement. According to it, a deque should have methods that accesses elements at the front and at the end of the list. The methods should be able to add, remove, and get elements at either end of the list. As a result, we narrowed down the list of methods to the methods that perform these functions.    
+
+## Rationale for Choosing ArrayList as the Underlying Data Structure
+We decided to use ArrayList as the underlying data structure because after reading the Java API for deque, we realized that to implement the methods required for Deque, we would need to be able to reference the first element and the last element of the data structure for all of the methods. With ArrayList, we were able to reference the first and last element easily by using the index 0 and the method from ArrayList size() - 1 respectively. The only downside we could see from using an ArrayList as the underlying structure was the runtime of the methods that removed and added the first element. 
