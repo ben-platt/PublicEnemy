@@ -18,7 +18,7 @@ public class QQKachoo<T> implements Deque<T>{
     }
     
     //adds x to the beginning of _Deque
-    //runs in O(1) time because we need to add in the beginning
+    //runs in O(n) time because we need to add in the beginning and shift every other element
     public void addFirst(T x){
 	_Deque.add(0,x);
     }
