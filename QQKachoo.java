@@ -40,7 +40,7 @@ public class QQKachoo<T> implements Deque<T>{
     public T removeLast(){
 	return _Deque.remove(_Deque.size() - 1);
     }
-
+    
     //returns the first element of _Deque without changing it
     //runs in O(1) time
     public T getFirst(){
