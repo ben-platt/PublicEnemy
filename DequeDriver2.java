@@ -1,7 +1,7 @@
 //StillCold (Fiona Cai, Kevin Feng, Alexia Leong)
 //APCS2 pd1
 //QQKachoo Driver
-/*
+/*x1
 __---~~~~--__                      __--~~~~---__
 `\---~~~~~~~~\\                    //~~~~~~~~---/'
  \/~~~~~~~~~\||                  ||/~~~~~~~~~\/
@@ -22,7 +22,7 @@ __---~~~~--__                      __--~~~~---__
  |>>>>>>||                            ||<<<<<<|
 */
 
-public class DequeDriver{
+public class DequeDriver2{
   public static void main(String[] args) {
     QQKachoo<String> iscream = new QQKachoo<String>();
 
@@ -52,12 +52,22 @@ public class DequeDriver{
     System.out.println(iscream.getLast()); //S'mores
 
     System.out.println("-----Removing from front-----");
-    System.out.println(iscream.getFirst()); //Strawberry
+    System.out.println(iscream.getFirst()); //Mint
+    System.out.println(iscream.removeFirst());
 
     System.out.println("");
 
     System.out.println("-----Removing from end-----");
-    System.out.println(iscream.getLast()); //Coffee
+    System.out.println(iscream.getLast()); //S'mores
+    System.out.println(iscream.removeLast());
+
+    //test for exception handling
+    //five elements left, attempt to remove six
+    for(int i = 0; i < 6; i++){
+	//System.out.println(iscream.removeFirst());
+	System.out.println(iscream.getLast());
+	System.out.println(iscream.removeLast());	
+    }
   }
 
 
