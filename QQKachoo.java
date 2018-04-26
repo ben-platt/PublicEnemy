@@ -32,24 +32,32 @@ public class QQKachoo<T> implements Deque<T>{
     //removes the first element of _Deque and returns it
     //runs in O(n) time because we remove the first element and shift every other element
     public T removeFirst(){
+	if (_Deque.size() == 0)
+	     return null;
 	return _Deque.remove(0);
     }
 
     //removes the last element of _Deque and returns it
     //runs in O(1) time because we only remove the last element
     public T removeLast(){
+	    if (_Deque.size() == 0)
+	     return null;
 	return _Deque.remove(_Deque.size() - 1);
     }
     
     //returns the first element of _Deque without changing it
     //runs in O(1) time
     public T getFirst(){
+	    if (_Deque.size() == 0)
+	     return null;
 	return _Deque.get(0);
     }
 
     //returns the last element of _Deque without changing it
     //runs in O(1) time
     public T getLast(){
+	    if (_Deque.size() == 0)
+	     return null;
 	return _Deque.get(_Deque.size() - 1);
     }
 
