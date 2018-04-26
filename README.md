@@ -9,6 +9,7 @@
 - [x] Include comments for both classes.
 - [x] Test and robustify the code!
 - [x] Update the ReadMe!
+- [x] Add exceptions to be thrown (added 4/25/18)
 
 ## Development Plan
 1. Plan on the methods that we should implement based on the Java API entries. 
@@ -18,6 +19,7 @@
     1. **Which underlying data structure should we use?**
 1. Test each method individually. Prioritize functionality. 
 1. Update the ReadMe to provide the list of methods we decided to implement and rationality why we chose this underlying data structure.
+1. UPDATE: We also added exceptions to our QQKachoo.java because of suggestions by Yahoo Search. These included null pointer expcetions.
 
 ## Methods
 * public void addFirst(Card x);
